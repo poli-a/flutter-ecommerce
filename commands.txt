@@ -1,0 +1,2 @@
+## Compilar en brave
+flutter run -d chrome

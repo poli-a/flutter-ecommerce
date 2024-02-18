@@ -1,0 +1,29 @@
+# Archivos de compilación y dependencias generados
+/build/
+/ios/Pods/
+/android/.gradle/
+/android/build/
+/ios/Flutter/.symlinks/
+/ios/Flutter/ephemeral/
+
+# Archivos de IDE
+/.idea/
+/.vscode/
+
+# Archivos de usuario
+*.iml
+*.lock
+*.log
+*.apk
+*.zip
+*.tar.gz
+
+# Archivos de caché y temporales
+*.dart_tool/
+*.pub-cache/
+/ios/Podfile.lock
+/ios/Pods/
+/android/.idea/
+.DS_Store
+.dart_tool/
+.pub/

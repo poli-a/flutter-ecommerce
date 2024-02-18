@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pianta-grande-rg",
+  "private_key_id": "e2bb451185df71cb048b7cce3d127c4d6e25bdda",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCsiPfEEiTbx+Qo\ncRSkn+jUK8Nn+46UpqlvV6k7QJTGngJ+wQ9pVOA800M7JmDB5mz5j9ORneuzFsJx\nTAmWoLRo3YScdMG8+eCl5lEq9MM7b8aHzibrb/SFwT8UJAp8GzL3h6TykCSfVBOZ\n9GcZmEUAStZTCXxjbeDdEV+o0otfNW9y2ZVhNv7FFo/4Vz5sb46QVqi8SCWXeNNU\nW4yUhB5qHRTIkRosfGOPqnndQQWqlOfjMvEk5+gUvkhJpB1fmj/ljOrc7vHrH9Gc\njx96+LPv0DT/5x7sVek0Aq2l2llHu3t4lesSQBkEaiQucAsVFXFDGwYHFrdxedSQ\nONmz/t3dAgMBAAECggEARrEH80oL2BEapodOkfUDDIux0JT9YmK24WvlZuWbD5YG\nJ7Eqg1nHVqSo0z9yPYAP/mCzquIthH86w/kHpLPLt3urrf8Ysjkfllm7wAHxTBUM\nHvCUebqxUWxQUAxET31FcK4fI1Nz7eQg899zrsT44JnJHtSwJn0KuQk5TI6XlDZA\nSD3CX1cVWGKnR4/qYmYBfXZfaNKbcVWKFzwfQgltEOroP/P9KK5PTZDlkAcq7Pz/\ngx4GGW3sXCobxiSEywvB5HLCxyBUqmbs7CJp0eltR2mW2yye36W6cJsAI/AqvTOs\n1bLYdlbF/GxKa622R5HSRDJllEBobgJYuaYc1ujMcQKBgQDbLuhrU7K+4VNh4bQ3\naENgKlRblAmzz1fPYNVM93evvLhynPXSbtIxfqC43Ff7UrEHpgDQJ9TswSm0+5bR\ncK1fxd+8e8b4Mbvar+8SpxwBROop7dptEHkXQbJ21mbrupZlpqsg3Qk0nkO9z/Ao\npKC7Q77dG9FG+ztKg9AQZDH2MwKBgQDJhCRRBCjfJXgOrqaEa42AsuPwCg9YYmnl\nlqUJq4iINJTweOdjE8dUsbynQO6Ud3d0FlJXX84rUYkisKDGUAL8HOLrs5zI7GtB\nOF4Ym7JMr8ppcn92Iw4ITgOhyf6iFpkv0J+ktbyNWDWDKUzNmvm1SrVXMIskva7I\nUqo9iY8rrwKBgQCf/Kxf8xcs51Iyx0oBi5RqdFthATzXyAgDcl4fsR7m4u0Lk/CH\nKqc4w4JTjVqXM3PO7mf3iKuOKSzlUyNyOzoCB3BZp0vDzKGfbf4m8l2pu4DlHB3s\nsDKDPEwlHDjB5k9zYWXWNiFLDB7MRSS6tfgw2LFPucdXdXiA2pgb7tbdKwKBgQDD\n37PFI/vuWudFrjGhSUGztS6l5cFgsdgpF7K3oYoGisWysHKI9XKtOk4bbJv6p9zu\nc7v5veASbyCTHYhI+wDLufBAFsfw7QybyoR7+urma4Cd2nNWi2BaZipVmpftSXYA\n6hIi8Zui7/ij0wMaXucVdtapN0AoqE853FApnIoTdQKBgEajUDItiuxCuVz+ozyq\neiMAXLEAJMh/P43gc/w36AJhcD7FCWWdOhy2qAdNCaDYoaJ9Vff90d96Z5L5DnZy\nMR8IqJG1sKLHvR0MYsuU15XSelXm7qVNO+jEzrQ/JgoqhIgCwra3bqX6nP2VaABW\nlr/wlt2LLxWkPSGk853aZKQP\n-----END PRIVATE KEY-----\n",
+  "client_email": "pianta-grande-rg@appspot.gserviceaccount.com",
+  "client_id": "114180001213801235844",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pianta-grande-rg%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

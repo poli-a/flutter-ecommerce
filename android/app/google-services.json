@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "716742702986",
+    "project_id": "pianta-grande-rg",
+    "storage_bucket": "pianta-grande-rg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716742702986:android:cd6acf58e0b4001434ba73",
+        "android_client_info": {
+          "package_name": "com.example.flutter_ecommerce_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716742702986-337i483t77cs5n65sh1rl102urc9l7k7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ts2tcS9U8WVCcliL8zbu3uRhnakHlzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716742702986-337i483t77cs5n65sh1rl102urc9l7k7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "716742702986-011i4jql1iddr3uk7srsn8r6gjul1394.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.piantarg.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
