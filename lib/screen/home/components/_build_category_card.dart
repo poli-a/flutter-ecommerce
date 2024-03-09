@@ -5,38 +5,9 @@ import '../../../models/Manga.dart';
 import '../../../models/Product.dart';
 import 'package:get/get.dart';
 
-/*buildCard(Manga manga) {
-  return Padding(
-    padding: const EdgeInsets.all(2),
-    child: Card(
-      elevation: 4,
-      child: Container(
-        height: 140,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(15),
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Expanded(
-              child: ClipRRect(
-                borderRadius: const BorderRadius.only(
-                  topLeft: Radius.circular(15),
-                  topRight: Radius.circular(15),
-                ),
-                child: imageIcon(manga),
-              ),
-            ),
-            _buildPriceRating(manga),
-          ],
-        ),
-      ),
-    ),
-  );
-}*/
 Widget buildCard(BuildContext context, Manga manga) {
   double screenWidth = MediaQuery.of(context).size.width;
-  double cardWidth = screenWidth * 0.4; // Ajusta según sea necesario
+  double cardWidth = screenWidth * 0.35; // Reducir el ancho de la tarjeta
   return GestureDetector(
     onTap: () => Get.to(MangaDetail(manga: manga)),
     child: Padding(
@@ -117,3 +88,33 @@ Image imageIcon(Manga manga) {
     fit: BoxFit.contain,
   );
 }
+
+/*buildCard(Manga manga) {
+  return Padding(
+    padding: const EdgeInsets.all(2),
+    child: Card(
+      elevation: 4,
+      child: Container(
+        height: 140,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(15),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: ClipRRect(
+                borderRadius: const BorderRadius.only(
+                  topLeft: Radius.circular(15),
+                  topRight: Radius.circular(15),
+                ),
+                child: imageIcon(manga),
+              ),
+            ),
+            _buildPriceRating(manga),
+          ],
+        ),
+      ),
+    ),
+  );
+}*/

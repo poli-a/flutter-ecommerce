@@ -1,3 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 class Manga {
   String descripcion;
   String edadRecomendada;
@@ -11,6 +13,7 @@ class Manga {
   String titulo;
   List<String> tituloAbreviado;
   int tomo;
+  final DocumentSnapshot? documentSnapshot;
 
   Manga({
     required this.descripcion,
@@ -25,9 +28,11 @@ class Manga {
     required this.titulo,
     required this.tituloAbreviado,
     required this.tomo,
+    required this.documentSnapshot,
   });
 
-  factory Manga.fromJson(Map<String, dynamic> json) {
+  static Manga fromJson(
+      Map<String, dynamic> json, DocumentSnapshot? documentSnapshot) {
     return Manga(
       descripcion: json['descripcion'] ?? '',
       edadRecomendada: json['edadRecomendada'] ?? '',
@@ -44,6 +49,7 @@ class Manga {
       titulo: json['titulo'] ?? '',
       tituloAbreviado: List<String>.from(json['tituloAbreviado'] ?? []),
       tomo: json['tomo'] ?? 0,
+      documentSnapshot: documentSnapshot,
     );
   }
 }
